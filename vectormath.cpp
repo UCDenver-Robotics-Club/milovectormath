@@ -19,12 +19,12 @@ NavVector::NavVector(float x,float y)
   this-> y = y;
 }
 
-NavVector::NavVector(NavVector& other)
-{
-  // basicly just copy over the new values
-  this->x = other.getX();
-  this->y = other.getY();
-}
+// NavVector::NavVector(NavVector& other)
+// {
+//   // basicly just copy over the new values
+//   this->x = other.getX();
+//   this->y = other.getY();
+// }
 
 NavVector::NavVector()
 {

@@ -8,7 +8,7 @@ public:
   NavVector(); // defult unit vector
   NavVector(float,float);
   NavVector(float,double,bool); // setup a vector from polar notation
-  NavVector(NavVector&); // copy constructor
+  //NavVector(NavVector&); // copy constructor
   String sayHi();
   // print out x and y
   float getX();
